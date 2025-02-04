@@ -99,7 +99,7 @@ print(names)
 print(full_name.replace('Hugo MG,', "Ashley"))
 
 # 공백제거
-origin = '      Hello  ~    '
+origin = '     Hello  ~     '
 print(f'//{origin}')
 print(f'//{origin.lstrip()}//')
 print(f'//{origin.rstrip()}//')

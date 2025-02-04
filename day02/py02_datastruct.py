@@ -34,7 +34,9 @@ print(type(t))
 ## 딕셔너리(사전형) {key : value}의 집합
 spiderman = {'name': 'Peter Parker', 'age': 20, 'weapon':'Web Shooter'}
 print(spiderman)
-print(type(spiderman['name']))
+print(type(spiderman))
+
+print(spiderman['name'])
 spiderman['age'] = 21
 print(spiderman)
 
