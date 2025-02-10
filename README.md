@@ -143,8 +143,10 @@ https://github.com/user-attachments/assets/47c86b66-4ceb-45cc-b2ed-a24275c31960
         - 파이썬으로 연구를 목적으로하는 리포트 작성에 특화된  기술
         - 주피터 프로젝트에서 나온 결과물
         - Ctrl + Shift + P(명령 팔레트)에서 시작
-        - Create: 새 Jupyter 노트북 클릭
-        - 무조건 저장 먼저(.ipynb)
+            - Create: 새 Jupyter 노트북 클릭
+            - 무조건 저장 먼저(.ipynb)
+        - GUI 학습에는 불합리
+        - 빅데이터분석, 머신러닝, 딥러닝 많이 활용
 
     - GUI 학습(tkinter)
         - GUI(Graphic User Interface) - 그래픽 사용자 인터페이스
@@ -164,3 +166,20 @@ https://github.com/user-attachments/assets/47c86b66-4ceb-45cc-b2ed-a24275c31960
             - 안드로이드, IOS 모바일 앱 UI 사용가능
             - 모바일 특화로 멀티플랫폼 지원
             - 가장 어렵다
+
+    - Tkinter 학습
+        - 기본 템플릿
+        ```python
+        from tkinter import *
+
+        root = Tk()
+        # 이 사이에 위젯, 이벤트 등 작성
+        # Label, Button, Entry, Radiobutton
+        # Checkbutton, Listbox, Frame 등...
+        # 위젯 .pack() 필수!
+        root.mainloop()
+        ````
+<!-- 주석 -->
+<!-- html에서 사용하는 <img> 태그로 캡처한 이미지를 추가 -->
+![py001](./image/py001.png)
+<img src="./image/py001.png" width="400>
