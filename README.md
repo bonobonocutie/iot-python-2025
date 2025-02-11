@@ -137,8 +137,10 @@ IoT 개발자 기초 프로그래밍 언어 리포지토리
         - 내 영화 앱 수정, 마무리
             - 예외처리: 입력 시 바로 엔터, 입력 시 4개의 아이템 입력하지 않으면, 
             - 화면편집: 검색이나 출력 시 데이터 수 표시
+
               
 https://github.com/user-attachments/assets/47c86b66-4ceb-45cc-b2ed-a24275c31960
+
 
     - 주피터 노트북 기본 사용법
         - 파이썬으로 연구를 목적으로하는 리포트 작성에 특화된  기술
@@ -191,8 +193,10 @@ https://github.com/user-attachments/assets/47c86b66-4ceb-45cc-b2ed-a24275c31960
         - ChatGPT 유사앱 - 구글 제미나이 API
     - 실습
         - 제미나이 챗앱 -> **클래스형태**로 변경
+
      
 https://github.com/user-attachments/assets/c7e2a3b9-c391-4d52-a145-0da10887ef72
+
 
     - 실행파일 만들기
         - `pyinstaller` 모듈 설치
