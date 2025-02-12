@@ -76,7 +76,7 @@ print(current[0:3 + 1])
 # 2025-02-04
 year = current[0:3 + 1]
 month = current[5:6 + 1]
-day = current[:8] # end 끝가지는 숫자 생략
+day = current[8:] # end 끝가지는 숫자 생략
 print(year, month, day)
 print(current[-2:])
 
@@ -96,7 +96,7 @@ print(type(names))
 print(names)
 
 # 바꾸기
-print(full_name.replace('Hugo MG,', "Ashley"))
+print(full_name.replace('Hugo MG.', "Ashley"))
 
 # 공백제거
 origin = '     Hello  ~     '
