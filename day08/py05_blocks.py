@@ -35,9 +35,6 @@ pygame.display.set_caption('Paygame Blocks!!')
 pygame.key.set_repeat(10, 10)
 
 def main():
-    # if is_game_start:
-    #     BALL = Block((200, 200 ,0), Rect(375, 650, 20, 20), 10) # 공 생성, 스피드 10으로 시작
-        
     is_game_start = False
     score = 0
     BLOCK = []
@@ -110,7 +107,7 @@ def main():
                 BALL.speed += 0.5
                 BALL.dir = 90 + (PADDLE.rect.centerx - BALL.rect.centerx) / PADDLE.rect.width * 100
 
-            if BALL.rect.centerx < 0 or BALL.rect.centerx > 1000: # 게임화면 양쪽 벽 밖으로 못나가게
+            if BALL.rect.centerx < 10 or BALL.rect.centerx > (SCREEN_WIDTH - 10): # 게임화면 양쪽 벽 밖으로 못나가게
                 BALL.dir = 180 - BALL.dir # 반사각만큼 방향 전환
             elif BALL.rect.centery < 0: ##  게임화면 천장에 부딪히면 반사
                 BALL.dir = -BALL.dir
