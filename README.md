@@ -183,7 +183,7 @@ IoT 개발자 기초 프로그래밍 언어 리포지토리
 <!-- 주석 -->
 <!-- html에서 사용하는 <img> 태그로 캡처한 이미지를 추가 -->
 <!-- ![py001](./image/py001.png) -->
-<img src="./image/py001.png" width="400">
+<img src="./image/py01.png" width="400">
 
 ## 7일차
 - 파이썬 응용
